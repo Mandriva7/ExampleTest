@@ -22,10 +22,19 @@ public class PaginaElemento {
         System.out.println(TituloElemento.getText());
         return mensaje.equals(TituloElemento.getText());
     }
-    public boolean validarTab(String Existe) {
+    public boolean validarTab() {
 
-        System.out.println(PaperBackTab.getText());
-        return Existe.equals(PaperBackTab.getText());
+        boolean Existe;
+        try
+        {
+            Existe =   PaperBackTab.isDisplayed();
+        }
+        catch (Exception NoSuchElementException)
+        {
+            Existe = false;
+        }
+        return Existe;
+
     }
 
     public PaginaElemento(WebDriver driver){

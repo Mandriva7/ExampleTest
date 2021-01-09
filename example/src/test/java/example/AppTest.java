@@ -11,7 +11,7 @@ public class AppTest extends BaseTestSuite{
         paginaPrincipal.BuscarInfoIngresada();
         paginaBusqueda.seleccionarElemento();
         Assert.assertTrue(paginaElemento.resultadoConsulta("A Practitioner's Guide to Software Test Design"));
-        Assert.assertTrue(paginaElemento.validarTab("true"));
+        Assert.assertTrue(paginaElemento.validarTab());
     }
 
 }
