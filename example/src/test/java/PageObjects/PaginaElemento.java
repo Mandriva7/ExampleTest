@@ -24,8 +24,8 @@ public class PaginaElemento {
     }
     public boolean validarTab(String Existe) {
 
-        System.out.println(PaperBackTab.isDisplayed());
-
+        System.out.println(PaperBackTab.getText());
+        return Existe.equals(PaperBackTab.getText());
     }
 
     public PaginaElemento(WebDriver driver){
