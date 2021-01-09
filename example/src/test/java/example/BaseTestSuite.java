@@ -13,10 +13,14 @@ public class BaseTestSuite {
     public WebDriver chromeDriver;
 
     PaginaPrincipal paginaPrincipal;
+    PaginaBusqueda paginaBusqueda;
+    PaginaElemento paginaElemento;
 
     private void inicializarPaginas(WebDriver driver){
 
         paginaPrincipal = new PaginaPrincipal(driver);
+        paginaBusqueda = new PaginaBusqueda(driver);
+        paginaElemento = new PaginaElemento(driver);
     }
 
 
