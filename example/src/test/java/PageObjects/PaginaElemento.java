@@ -19,8 +19,6 @@ public class PaginaElemento {
     @FindBy(name = "offeringID.1")
     WebElement RadioButtonThisItem;
 
-    @FindBy(id = "iframeContent")
-    WebElement TextContent;
 
 
     public boolean resultadoConsulta(String mensaje)
@@ -59,15 +57,6 @@ public class PaginaElemento {
             Checked = false;
         }
         return Checked;
-    }
-    public boolean ContenidoTextoContiene()
-    {
-        boolean Esta;
-
-            String text = TextContent.getText();
-
-        Esta = text.contains("quality assurance professionals");
-        return Esta;
     }
 
     public PaginaElemento(WebDriver driver){

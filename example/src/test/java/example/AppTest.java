@@ -16,7 +16,6 @@ public class AppTest extends BaseTestSuite{
         Assert.assertTrue(paginaElemento.validarTab());
         Assert.assertTrue(paginaElemento.EstaEnStock("Disponible."));
         Assert.assertTrue(paginaElemento.ValidarRadioButton());
-        Assert.assertTrue(paginaElemento.ContenidoTextoContiene());
 
     }
 
