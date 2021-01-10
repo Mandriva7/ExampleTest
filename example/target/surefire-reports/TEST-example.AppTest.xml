@@ -69,7 +69,7 @@
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at example.AppTest.exampleTest(AppTest.java:10)
 </failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@449b2d27
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5f5a92bb
 </system-out>
   </testcase>
 </testsuite>
