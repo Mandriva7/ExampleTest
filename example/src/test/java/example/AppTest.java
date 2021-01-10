@@ -3,6 +3,7 @@ package example;
 import org.junit.Assert;
 import org.junit.Test;
 
+
 public class AppTest extends BaseTestSuite{
 
     @Test
@@ -13,6 +14,10 @@ public class AppTest extends BaseTestSuite{
         paginaBusqueda.seleccionarElemento();
         Assert.assertTrue(paginaElemento.resultadoConsulta("A Practitioner's Guide to Software Test Design"));
         Assert.assertTrue(paginaElemento.validarTab());
+        Assert.assertTrue(paginaElemento.EstaEnStock("Disponible."));
+        Assert.assertTrue(paginaElemento.ValidarRadioButton());
+        Assert.assertTrue(paginaElemento.ContenidoTextoContiene());
+
     }
 
 }
