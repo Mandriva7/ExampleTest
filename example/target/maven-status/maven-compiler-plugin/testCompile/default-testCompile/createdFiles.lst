@@ -1,1 +1,5 @@
+example\BaseTestSuite.class
+PageObjects\PaginaElemento.class
+PageObjects\PaginaBusqueda.class
 example\AppTest.class
+PageObjects\PaginaPrincipal.class

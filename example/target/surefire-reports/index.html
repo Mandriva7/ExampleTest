@@ -130,16 +130,8 @@
                   <a name="exampleTest">
                   </a> <!-- exampleTest -->
                   <span class="method-name">exampleTest</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Bringwithyou\ExampleTest\example\src\test\java\example\chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at example.AppTest.exampleTest(AppTest.java:13)
+                  <div class="stack-trace">java.lang.NullPointerException
+	at example.AppTest.exampleTest(AppTest.java:10)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 ... Removed 36 stack frames
 </div> <!-- stack-trace -->
@@ -157,11 +149,6 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;example.AppTest&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
-    &lt;method-selectors&gt;
-      &lt;method-selector&gt;
-        &lt;selector-class name=&quot;org.apache.maven.surefire.testng.utils.MethodSelector&quot; priority=&quot;10000&quot;/&gt;
-      &lt;/method-selector&gt;
-    &lt;/method-selectors&gt;
     &lt;classes&gt;
       &lt;class name=&quot;example.AppTest&quot;/&gt;
     &lt;/classes&gt;
@@ -207,12 +194,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'exampleTest')
 data.setCell(0, 2, 'example.AppTest')
-data.setCell(0, 3, 50);
+data.setCell(0, 3, 4);
 window.suiteTableData['example_AppTest']= { tableData: data, tableDiv: 'times-div-example_AppTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 50 ms</span>
+              <span class="suite-total-time">Total running time: 4 ms</span>
               <div id="times-div-example_AppTest">
               </div> <!-- times-div-example_AppTest -->
             </div> <!-- times-div -->
