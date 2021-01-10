@@ -36,6 +36,7 @@ public class BaseTestSuite {
         inicializarPaginas(chromeDriver);
         //Abrimos una URL
         chromeDriver.get("https://www.amazon.com/");
+        chromeDriver.manage().window().maximize();
     }
     @After
     public void cerrarDriver()

@@ -7,13 +7,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public class PaginaBusqueda {
 
-    @FindBy(xpath = "(//div[@data-component-type=\"s-search-result\"]//h2)[1]")
+    @FindBy(xpath = "//span[contains(text(),\"A Practitioner's Guide to Software Test Design\")]")
     WebElement primerElemento;
 
 
-    public void seleccionarElemento() { primerElemento.click(); }
+    public void seleccionarElemento() {
+        primerElemento.click();
+    }
 
-    public PaginaBusqueda(WebDriver driver){
-        PageFactory.initElements(driver,this);
+    public PaginaBusqueda(WebDriver driver) {
+        PageFactory.initElements(driver, this);
     }
 }
