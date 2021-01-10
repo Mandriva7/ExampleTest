@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="example.AppTest" duration-ms="33" started-at="2021-01-09T20:05:23 COT" finished-at="2021-01-09T20:05:23 COT">
+  <suite name="example.AppTest" duration-ms="32" started-at="2021-01-09T20:18:23 COT" finished-at="2021-01-09T20:18:23 COT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="33" started-at="2021-01-09T20:05:23 COT" finished-at="2021-01-09T20:05:23 COT">
+    <test name="Command line test" duration-ms="32" started-at="2021-01-09T20:18:23 COT" finished-at="2021-01-09T20:18:23 COT">
       <class name="example.AppTest">
-        <test-method status="FAIL" signature="exampleTest()[pri:0, instance:example.AppTest@13deb50e]" name="exampleTest" duration-ms="4" started-at="2021-01-09T20:05:23 COT" finished-at="2021-01-09T20:05:23 COT">
+        <test-method status="FAIL" signature="exampleTest()[pri:0, instance:example.AppTest@57baeedf]" name="exampleTest" duration-ms="3" started-at="2021-01-09T20:18:23 COT" finished-at="2021-01-09T20:18:23 COT">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
