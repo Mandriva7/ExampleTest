@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class PaginaElemento {
 
 
-    @FindBy(css = "#title")
+    @FindBy(id = "title")
     private WebElement TituloElemento;
 
     @FindBy(css = "#mediaTab_heading_2>a>span>div:nth-child(1) span")

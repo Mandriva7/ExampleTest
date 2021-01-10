@@ -23,7 +23,6 @@ public class BaseTestSuite {
         paginaElemento = new PaginaElemento(driver);
     }
 
-
     @Before
     public void abrirDrive() {
 
