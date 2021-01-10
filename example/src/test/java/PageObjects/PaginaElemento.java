@@ -66,15 +66,9 @@ public class PaginaElemento {
 
             String text = TextContent.getText();
 
-            if (text.contains("quality assurance professionals")){
-                Esta = true;
-            } else {
-                Esta = false;
-            }
+        Esta = text.contains("quality assurance professionals");
         return Esta;
     }
-
-
 
     public PaginaElemento(WebDriver driver){
         PageFactory.initElements(driver,this);
