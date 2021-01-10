@@ -32,7 +32,7 @@ public class BaseTestSuite {
         //nueva instancia de ChromeDriver
         chromeDriver = new ChromeDriver();
         //definimos tiempo de espera hasta que aceptemos timeouts
-        chromeDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        chromeDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         inicializarPaginas(chromeDriver);
         //Abrimos una URL
